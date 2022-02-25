@@ -1,6 +1,8 @@
-# twitch-play-vod
-Play a Twitch VOD for a channel at a specific time.
+# Twitch VOD Seeker
+Based on https://github.com/johnebgood/twitch-play-vod
 
-Currently live at: https://securitylive.com/playvod.html
-
-Needs to have a Twitch App created with client_id.
+## Commands
+* First install dependencies `yarn install`.
+* Make local copy of `.env.dist` -> `.env` and enter your information. Visit https://dev.twitch.tv/ to create an application and get a Access key.
+* Run `yarn dev` for your local development environment.
+* Run `yarn build` to generate static files to be hosted somewhere.
